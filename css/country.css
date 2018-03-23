@@ -1,0 +1,228 @@
+* {  margin:0;
+	padding:0;
+	outline:0;
+}
+body{font-family: 'Lato', sans-serif;}
+ol,ul{
+    list-style-type:none;
+}
+a{
+    text-decoration:none;
+}
+.fix{
+	overflow:hidden;
+}
+.pd0{
+	padding:0px;
+}
+/*=========css main code start==============*/
+.header-area-full{
+		background: url(../images/header-bg-img2.jpg) no-repeat;
+    	background-size: cover;
+    	position: relative;
+    	width: 100%;
+    	height: 389px;
+}
+#menu{width: 100%;}
+ /*============menu fix=========*/
+.default {
+width: 100%;
+height: 50px;
+margin-bottom: 60px;
+}
+.fixed {
+position: fixed;
+background: #0190DA;
+height: 100px;
+top: 0px;
+left: 0;
+width: 100%;
+box-shadow: 0 0 40px #222;
+-webkit-box-shadow: 0 0 40px #222;
+-moz-box-shadow: 0 0 40px #222;z-index: 999;
+}
+/*============menu fix end=========*/
+.menu-part{
+	position: relative;
+	z-index: 999;
+}
+.navbar-default{	
+	border: none;
+	background: transparent;	
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover,
+ .navbar-default .navbar-nav > .active > a:focus {
+    color: #0190DA;
+    background-color: #fff;
+    border: none;
+}
+.navbar-default .navbar-nav>li{
+	margin-left: 3px;
+}
+.navbar-default{
+	padding: 40px 0px;
+}
+.navbar-default .navbar-nav>li>a{
+	background: #C62139;
+    color: #fff;
+    display: block;
+    font-size: 16px;;
+    text-decoration: none;
+    border-right: 1px solid #1D9CDF;
+    font-weight: bold;
+    padding: 7px 20px;
+}
+.navbar-default .navbar-nav>li:last-child a{
+	border-right:none;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #0190DA;
+    background-color:#fff;
+	transition:all linear 0.5s;
+	-moz-transition:all linear 0.5s;
+	-webkit-transition:all linear 0.5s;
+	-o-transition:all linear 0.5s;
+	-ms-transition:all linear 0.5s;
+}
+/*============drop down menu =========*/
+.navbar-nav li ul li{
+	display: block;padding-top:0px;
+	text-align: center;
+}
+.navbar-nav li ul li a{
+	display: block;
+	padding: 10px;
+	color: #fff;
+}
+.navbar-nav li:hover ul{ 
+	display:block; 
+	position:absolute;
+	color: #fff;
+    background-color:#C62139;
+	transition:all linear 0.5s;
+	-moz-transition:all linear 0.5s;
+	-webkit-transition:all linear 0.5s;
+	-o-transition:all linear 0.5s;
+	-ms-transition:all linear 0.5s;
+}
+/*============drop down menu ends=========*/
+.user-account{
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+	background: #C62139;
+	padding: 5px;
+		
+}
+.user-account span{
+	padding: 0px 5px;
+	font-size: 23px;
+}
+.user-account .fa-user:hover{
+	color: #0190DA;
+}
+.user-account:hover{
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+}
+/*============user-account ends=========*/
+.flex-list li{
+	display: inline-block;
+	padding: 50px 0px;
+}
+.flex-list li a{
+	margin-right: 60px;
+	color: #1A9BDE;
+}
+/*==========footer css===========*/
+.graduat{
+	color: #fff;
+	margin-bottom: 100px;
+}
+.graduat a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 30px;
+}
+.graduat a:hover{
+	color:#C62139;
+}
+.contacts-info dl dt{
+	font-size: 20px;
+	color: #fff;
+}
+.contacts-info dl>dd>a{
+	text-decoration: none;
+	color: #fff;font-size: 20px;
+}
+.contacts-info address{
+	color: #fff;
+}
+.social-list li{
+	display: inline-block;
+}
+.social-list li a{
+	text-decoration: none;
+	background:#fff;
+	width: 52px;
+	height: 52px;
+	border-radius: 100%;
+	text-align: center;
+	padding: 13px;
+	font-size: 30px;
+	color: #1A9BDE
+ }
+ .social-list li a:hover{
+ 	background:#C62139;
+ 	color: #fff; 
+	-ms-transform: rotateY(360deg); /* IE 9 */
+    -webkit-transform: rotateY(360deg); /* Safari */
+    transform: rotateY(360deg);
+	transition:.9s;
+}
+ .margin{
+ 	margin-top: 100px;
+ }
+
+.footer{background:#1A9BDE;}
+/*============back to top==================*/
+#back-top {
+	position: fixed;
+	bottom: -20px;
+	right: 0px;
+}
+#back-top a {
+	width: 70px;
+	display: block;
+	text-align: center;
+	font: 11px/100% Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #bbb;
+	/* background color transition */
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+/* arrow icon (span tag) */
+#back-top span {
+	width: 70px;
+	height: 70px;
+	display: block;
+	margin-bottom: 7px;
+	background: #bbb url(../images/up-arrow.png) no-repeat center center;
+	/* rounded corners */
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	/* background color transition */
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+#back-top a:hover span {
+	background-color: #C62139;
+}

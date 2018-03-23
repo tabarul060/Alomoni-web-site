@@ -1,0 +1,70 @@
+
+/* Spin */
+.demo-4 .box {
+	box-shadow: none;
+	background: rgba(0,0,0,0.4);
+	-webkit-transition: none;
+	transition: none;
+	color: #fff;
+}
+
+.demo-4 .box h3,
+.demo-4 .box span {
+	-webkit-transform: scale(0.9);
+	transform: scale(0.9);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: transform 0.5s;
+}
+
+.demo-4 .box:hover h3,
+.demo-4 .box:hover span {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+.demo-4 .box svg line {
+	stroke-width: 30;
+	-webkit-transition: all .4s;
+	transition: all .4s;
+}
+
+.demo-4 .box:hover svg line {
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+}
+
+.demo-4 .box:hover svg line {
+	stroke-width: 0;
+}
+
+.demo-4 .box svg line.top,
+.demo-4 .box svg line.bottom {
+	stroke-dasharray: 300; 
+}
+
+.demo-4 .box svg line.left,
+.demo-4 .box svg line.right {
+	stroke-dasharray: 460;
+}
+
+.demo-4 .box:hover svg line.top {
+	-webkit-transform: translateX(-300px);
+	transform: translateX(-300px);
+}
+
+.demo-4 .box:hover svg line.bottom {
+	-webkit-transform: translateX(300px);
+	transform: translateX(300px);
+}
+
+.demo-4 .box:hover svg line.left {
+	-webkit-transform: translateY(460px);
+	transform: translateY(460px);
+}
+
+.demo-4 .box:hover svg line.right {
+	-webkit-transform: translateY(-460px);
+	transform: translateY(-460px);
+}

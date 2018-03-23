@@ -1,0 +1,367 @@
+/*======default css=====*/
+* {  margin:0;
+	padding:0;
+	outline:0;
+}
+body{}
+ol,ul{
+    list-style-type:none;
+}
+a{
+    text-decoration:none;
+}
+.fix{
+	overflow:hidden;
+}
+.pd0{
+	padding:0px;
+}
+/*============css main code start===========*/
+/*=================== header part =======================*/
+.header-area-full{
+		background: url(../images/header-bg-img2.jpg) no-repeat;
+    	background-size: cover;
+    	position: relative;
+    	width: 100%;
+    	height: 389px;
+ }
+
+/*=================== about part =======================*/
+.about-lft h2,.about-mid h2,.about-rit h2{
+	font-size: 60px;
+	margin-bottom:70px ;
+	margin-top: 70px;
+}
+.about-lft h6{
+	margin-bottom:30px ;
+	margin-top: 30px;
+	font-size: 15px;
+}
+.about-lft a{
+	border: none;
+	margin-bottom: 30px;
+}
+.about-lft p{
+	color: #ccc;
+}
+.about-lft a:hover{
+	background:#1A9BDE;
+}
+.content>.h3{}
+.time-list ul li h3{
+	float: left;font-size: 40px;
+	font-weight: bold;
+}
+.time-list ul li h6{
+	float: left;font-size: 14px;
+	padding: 0px 15px;font-weight: bold;
+}
+.time-list ul li p{
+	float: left;font-size: 14px;
+	padding:;margin-left: 100px;color: #ccc;
+}
+.about-rit p{
+	color: #ccc;
+}
+.marked-list li{
+	padding: 8px 0px;
+}
+.marked-list li a{
+	border-bottom:1px solid #ccc;
+	display: block;
+	padding: 8px;font-size:23px;color: #A94442;
+	font-weight: bold;
+	text-decoration: none;
+}
+.marked-list li:last-child a{
+	border-bottom: none;
+}
+.marked-list li a:hover{
+	color: #ccc;
+}
+.about2 h2{
+	color: #fff;font-size: 50px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+.about2{
+	background: #C62139
+}
+.offs2 h6 a{
+	color: #fff;font-size: 16px;
+}
+.social-list1 ul li{
+	display: inline-block;
+}
+.social-list1 ul li a{
+	color: #fff;font-size:20px;
+	padding: 10px;text-decoration: none;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.social-list1 ul li a:hover{
+	color: #337AB7;
+}
+.about3 h2{
+	font-size: 60px;
+	margin-top: 90px;
+	margin-bottom: 70px;
+}
+.Benefit-icon>.icon{
+	font-size: 30px;background: #337AB7;
+	color: #fff;text-align: center;float: left;padding: 15px;
+}
+.Benefit-icon>.Benefit-text{ 
+    float: left;
+    margin-left:80px;
+    margin-top: -83px;
+}
+.Benefit-icon>.Benefit-text h6{
+	font-size: 16px;
+}
+.Benefit-icon>.Benefit-text p{
+	color: #ccc;
+	margin-bottom: 50px;
+}
+.values h6{
+	font-size: 16px;
+}
+.values p{
+	color: #ccc;
+}
+.blockquote p{
+	color: #ccc;font-size: 16px;
+}
+.blockquote h3{
+	font-size: 18px;
+	margin-top: 20px;
+}
+/*============membership css========*/
+.membership1 h2{
+	font-size: 80px;
+	margin-top: 50px;margin-bottom: 40px;
+}
+.membership>.membership-icon span{
+	font-size: 80px;
+	margin-bottom: 40px;
+}
+.membership>.membership-text h6{
+	font-size: 16px;
+	margin-top: 10px;
+}
+.membership>.membership-text p{
+	color: #ccc;
+}
+.membership>.membership-text a{
+	border:none;
+	margin-bottom: 50px;
+	margin-top: 20px;
+}
+.membership>.membership-text a:hover{
+	background:#337AB7; 
+}
+.bg-light{
+	width: 100%;
+	background: #F2F2F2;
+	overflow: hidden;
+}
+.membership-gift h2{
+	font-size: 80px;
+}
+.membership-gift h6{
+	font-size: 15px;
+	margin-top: 30px;
+	margin-bottom: 20px;	
+}
+.membership-gift p{
+	color: #ccc;
+	margin-bottom: 30px
+}
+.membership-gift a{
+	border: none;
+	margin-top: 30px;
+	padding: 10px 20px;
+}
+.membership-gift a:hover{
+	background: #337AB7;
+}
+
+.world-map-text h2{
+	font-size: 80px;
+	color: #fff;margin-top: 50px;
+	margin-bottom: 30px;
+}
+.world-map-text p{
+	color: #fff;
+	font-size: 15px;
+	margin-top: 20px;
+}
+.world-map{
+	background: url(../images/bg-fixed.jpg)no-repeat fixed;
+	width: 100%;
+	height: 400px;
+}
+
+.discounts h2{
+	font-size: 60px;
+	color:#0190DA;margin-top: 40px;
+	margin-bottom: 30px;
+}
+.member-contents h6{
+	font-size: 20px;
+}
+.member-contents p{
+	color: #ccc;
+	font-size: 16px;
+}
+/*=================== events part =======================*/
+.world-map2{
+	background: url(../images/worldmap.jpg)no-repeat fixed;
+	width: 100%;
+	height: 400px;
+}
+.association h2{
+	color: #fff;
+	font-size: 60px;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+.association p{
+	color: #fff;
+	font-size: 16px;
+	margin-top: 20px;
+}
+.events-icon>.icon span{
+	font-size: 50px;
+	float: left;
+	color: #C62139;
+}
+.events2 h2{
+	font-size: 60px;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+.events-icon>.events-text h6{
+	margin-left: 70px;
+	font-size: 16px;
+}
+.events-icon>.events-text p{
+	margin-left: 70px;
+	color: #ccc;
+	margin-bottom: 50px;
+}
+.homecoming-text h2{
+	font-size: 60px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+.homecoming-text h6{
+	font-size: 16px;
+	margin-top: 40px;
+}
+.homecoming-text p{
+	color: #ccc;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	font-size: 15px;
+}
+.homecoming-text a{
+	border: none;margin-top: 30px;
+	padding: 10px 30px;
+}
+.homecoming-text a:hover{
+	background:#0190DA;
+}
+/*=============contacts page==========*/
+.contacts h2{
+	font-size: 50px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.contact-info dl dt{
+	float: left;
+	font-size: 14px;
+	color: #bbb;
+}
+.contact-info dl dt:hover{
+	color: #0190DA;
+}
+.contact-info dl>dd>a{
+	color: #bbb;
+	text-decoration: none;
+}
+.contact-info dl>dd>a:hover{
+	color: #0190DA;
+}
+.contacts-info dl dt{
+	font-size: 20px;
+	color: #fff;
+}
+.contacts-info dl>dd>a{
+	text-decoration: none;
+	color: #fff;font-size: 20px;
+}
+.contacts-info address{
+	color: #fff;
+}
+.google-map iframe{
+	margin-top: 70px;
+}
+.name,.email{
+	width: 300px;
+	height: 50px;
+}
+.textarea{
+	width: 300px;
+	height: 100px;
+}
+.btn{
+	width: 150px;
+	border: none;
+	margin-bottom: 50px;
+	margin-top: 30px;
+}
+.btn:hover{
+	background:#0190DA;
+}
+/*===================sub-menu css========================*/
+/*=====================USA CSS==========================*/
+.usa-area-full{
+	width: 100%;
+}
+.usa-area-lft h2{
+	margin-top: 70px;
+	font-size: 50px;
+	font-weight: bold;
+}
+.usa-area-lft p{
+	font-size: 15px;
+	color: #bbb;margin-top: 50px;
+}
+.usa-service h2{margin-top: 80px;font-weight: bold;margin-bottom: 50px;}
+.usa-service ul{}
+.usa-service ul li{
+	padding: 5px 0px;
+}
+.usa-service ul li a{
+	font-size: 22px;color: #A94442;
+	border-bottom: 1px solid #B4B4B4;
+	text-decoration: none;
+	display: block;
+	padding: 10px 0px;}
+
+.usa-service ul li:last-child a{
+	border-bottom: none;
+}
+.usa-service ul li a:hover{
+	color: #ccc;
+}
+.usa-service h3{margin-top: 90px;margin-bottom: 20px;font-weight: bold;}
+.related img{padding: 20px 0px;}
+/*==========Australia css========*/
+.as-area-lft h2{margin-top: 80px;font-weight: bold;}
+.as-area-lft p{
+	font-size: 15px;
+	color: #bbb;margin-top: 40px;
+margin-bottom: 20px;}
+.as-area-lft h3{font-size: 35px;}
